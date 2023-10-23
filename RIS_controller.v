@@ -1,4 +1,4 @@
-module DE1_SoC_Computer (
+module RIS_controller (
 		CLOCK_50, 
 		reset, 
 		Rx,
