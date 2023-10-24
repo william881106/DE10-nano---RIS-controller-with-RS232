@@ -14,7 +14,7 @@ DE10-nano 上開發的 RIS phase controller ，以 UART 通訊協定 ( RS232 Tra
 | one_shot.v      |  防止電路訊號跳動，造成錯誤的正負緣觸發                |
 | ROM_GPIO.v      | RIS 控制狀態編/解碼                                  |
 | SNRcollector.v  | SNR / 控制狀態 (serial-in data) 儲存、parallel-out   |
-| TxEncoder.v     | 將欲回傳資訊編碼                                     |
+| TxEncoder.v     | 將欲回傳資訊編成 UART 格式                            |
 | Tx.v            | RS232 Transmitter (115200Hz)                        |
 | Rx.v            | RS232 Receiver (115200Hz)                           |
 
