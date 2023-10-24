@@ -25,13 +25,9 @@ DE10-nano 上開發的 RIS phase controller ，以 UART 通訊協定 ( RS232 Tra
 
 ## MATLAB Function
 1. RS232_4x4_4state.m : main file
-  1. 如果你是有線傳輸，請使用 "serialport"
-  2. 如果你是藍芽傳輸，請使用 "bluetooth"
-3. _7Seg.v          : 七段顯示器的顯示電路 (7-segment)
-4. fDIV_115200HZ.v  : 除頻器 (更改 clk 頻率至 115200Hz)
-5. one_shot.v       : 防止電路訊號跳動，造成錯誤的正負緣觸發
-6. ROM_GPIO.v       : RIS 控制狀態編/解碼
-7. SNRcollector.v   : SNR / 控制狀態 (serial-in data) 儲存、parallel-out
-8. TxEncoder.v      : 將欲回傳資訊編碼
-9. Tx.v             : RS232 Transmitter (115200Hz)
-10. Rx.v             : RS232 Receiver (115200Hz)
+    1. 如果你是有線傳輸，請使用 "serialport"
+    2. 如果你是藍芽傳輸，請使用 "bluetooth"
+2. _7Seg.v          : 七段顯示器的顯示電路 (7-segment)
+3. fDIV_115200HZ.v  : 除頻器 (更改 clk 頻率至 115200Hz)
+4. one_shot.v       : 防止電路訊號跳動，造成錯誤的正負緣觸發
+5. ROM_GPIO.v       : RIS 控制狀態編/解碼
