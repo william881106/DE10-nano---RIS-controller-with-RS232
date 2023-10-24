@@ -34,10 +34,6 @@ DE10-nano 上開發的 RIS phase controller ，以 UART 通訊協定 ( RS232 Tra
 | RS232tx_GPIO.m       | 傳送想要的控制狀態給 FPGA                            |
 | RS232tx_reset1step.m | 傳送失敗時使用，重新傳送該筆傳送失敗的控制狀態          |
 
-1.    : 
-    1. 如果你是有線傳輸，請使用 "serialport"
-    2. 如果你是藍芽傳輸，請使用 "bluetooth"
-2.        : 
-3.           : 
-4.        : 
-5.  : 
+main file 提醒:
+如果你是有線傳輸，請使用 "serialport"
+如果你是藍芽傳輸，請使用 "bluetooth"
