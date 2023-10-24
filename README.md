@@ -18,4 +18,4 @@ DE10-nano 上開發的 RIS phase controller ，以 UART 通訊協定 ( RS232 Tra
 ![This is an alt text.](/Image/Whole_System.png)
 **Rx system block generate by RTL viewer**
 ![This is an alt text.](/Image/Rx.png)
-**其餘細節可參考/Image/Rx.png**
+**其餘自動產生的細節可參考/Image/Whole_System(detail).pdf 圖可放大**
